@@ -17,7 +17,7 @@ RUN \
         openjdk-17-jre-headless=17* \
     \
     && curl -J -L -o /tmp/unifi.deb \
-        "https://dl.ui.com/unifi/8.4.62/unifi_sysvinit_all.deb" \
+        "https://dl.ui.com/unifi/8.5.1-g4i3173cv1/unifi_sysvinit_all.deb" \
     \
     && dpkg --install /tmp/unifi.deb \
     && apt-get clean \
